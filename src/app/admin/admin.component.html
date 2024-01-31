@@ -1,0 +1,48 @@
+<div>
+    <h1>Admin Dashboard</h1>
+    <div *ngFor="let item of newData;let index=index" class="data">
+    <p  >{{item.title}}</p>
+    <img src="{{item.image}}"   alt="{{item.image}}">
+
+    <!-- http://localhost:3001/poster/1704710254819.jpg -->
+    </div>
+</div>
+<div>   
+    <!-- <button (click)="submit()">Get button</button> -->
+</div>
+<div>
+    <button (click)="logout()">logout</button>
+</div>
+
+<form [formGroup]="postData"  (ngSubmit)="submit()" >
+    <div>
+        <label for="">Title</label>
+        <input type="text" formControlName="titlename">
+    </div>
+
+    <div >
+
+
+    </div>
+    <div >
+        <label for="">Image</label>
+        <input type="file" formControlName="imagename">
+    </div>
+    <div>
+        <label for="">Caption</label>
+        <input type="text" formControlName="captionname">
+    </div>
+    <div *ngIf="hideImage">
+        <img src="{{imageurl}}" height="20" alt="getimage">
+    </div>
+    <div>
+        <button>Submit</button>
+    </div>
+
+
+
+</form>
+
+<div>
+    <button routerLink="imgUpload">Image upload page</button>
+</div>

@@ -1,0 +1,39 @@
+<form action=""  [formGroup]="userData" (ngSubmit)="submit()">
+  
+
+  <div>
+    <label for=""> Name</label>
+    <input  type="text" placeholder="Placeholder"  formControlName="name" />
+  </div>
+
+  <div>
+    <label for="">Phone number</label>
+    <input type="tel" formControlName="phone" />
+  </div>
+
+
+  <div>
+    <label for="">email</label>
+    <input type="email" formControlName="email" />
+  </div>
+
+  <div>
+    <label for="">Password</label>
+    <input type="password" placeholder="password" formControlName="password" />
+  </div>
+
+  
+
+  <div>
+    <label for="">file</label>
+    <input type="file" formControlName="file" />
+  </div>
+
+  
+
+  
+
+  <div>
+    <button >button</button>
+  </div>
+</form>

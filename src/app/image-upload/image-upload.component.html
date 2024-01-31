@@ -1,0 +1,10 @@
+<!-- app.component.html -->
+<form  [formGroup]="myForm"  (submit)="uploadImage($event)">
+  <input type="file" (change)="onFileSelected($event)" name="image" accept="image/*" />
+  <!-- <input type="text" [(ngModel)]="textData" name="textData" placeholder="Enter text data" /> -->
+  <!-- <img src="{{image}}" alt=""> -->
+
+  <input type="email" formControlName="email">
+  <button type="submit">Upload Image</button>
+</form> 
+

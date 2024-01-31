@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "userDetails": [
+    {
+      "name": "Admin",
+      "phone": "797845165",
+      "email": "admin@gmail.com",
+      "password": "Admin@2023",
+      "file": "C:\\fakepath\\Copy of Bala.jpg"
+    },
+    {
+      "name": "User1",
+      "phone": "797845165",
+      "email": "user1@gmail.com",
+      "password": "User1@2023",
+      "file": "C:\\fakepath\\Copy of Bala.jpg"
+    },
+    {
+      "name": "User2",
+      "phone": "797845165",
+      "email": "user2@gmail.com",
+      "password": "User2@2023",
+      "file": "C:\\fakepath\\Copy of Bala.jpg"
+    },
+    {
+      "name": "User3",
+      "phone": "797845165",
+      "email": "user3@gmail.com",
+      "password": "User3@2023",
+      "file": "C:\\fakepath\\Copy of Bala.jpg"
+    },
+    {
+      "name": "User4",
+      "phone": "797845165",
+      "email": "user4@gmail.com",
+      "password": "User4@2023",
+      "file": "C:\\fakepath\\Copy of Bala.jpg"
+    },
+    {
+      "name": "bala",
+      "phone": "94481541651",
+      "email": "bala@gmail.com",
+      "password": "Bala@2023",
+      "file": "C:\\fakepath\\purple-osteospermum-daisy-flower_1373-16.webp"
+    },
+    {
+      "name": "Gokul",
+      "phone": "648448548",
+      "email": "gokul@gmail.com",
+      "password": "Gokul@2023",
+      "file": "C:\\fakepath\\dbs.jpg"
+    }
+  ]
+}

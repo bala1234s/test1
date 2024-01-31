@@ -1,0 +1,23 @@
+<form action="" [formGroup]="loginform" (ngSubmit)="submit()" >
+    <div>
+        <label for="">Email</label>
+        <input type="email" formControlName="email">
+    </div>
+    <div>
+        <label for="">Password</label>
+        <input type="password" formControlName="password">
+    </div>
+    <div>
+        <button >Submit</button>
+    </div>
+    
+</form>
+<p>does't have account <a routerLink="register">register here</a></p>
+
+<!-- <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" #password-field>
+    <span (click)="password-field.type=password-field.type=='password'?'text':'password'" 
+    class="fa fa-fw field-icon toggle-password"
+        [ngClass]="(password-field.type=='password')?' fa-eye':' fa-eye-slash'"></span>
+</div> -->
